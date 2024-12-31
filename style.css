@@ -1,0 +1,97 @@
+
+body {
+   
+   background-size:cover;
+   background-position:center;
+   box-sizing: border-box;
+   font-family: sans-serif;
+   text-align: center;
+   
+}
+select{
+   text-align: center;
+}
+
+.menu-bar
+{
+   background: rgba(58, 174, 212, 0.992) ;
+   text-align: center;
+   text-size-adjust: auto;
+}
+.menu-bar ul {
+   DISPLAY: inline-flex;
+   list-style:none;
+   COLOR: #FFF;
+}
+.menu-bar ul li
+{
+   width: 250px;
+   margin:3px;
+   padding:3px;
+}
+.menu-bar ul li a {
+   text-decoration: none;
+   color:#000000;
+}
+.active, .menu-bar ul li:hover
+{
+   background: #34b9c0;
+   border-radius: 1px;
+}
+.menu-bar .fa 
+{ 
+   margin-right: 8px;
+}
+
+
+.sub-menu-1 {
+   display: none;
+}
+
+.circle-image {
+   height: 85px;
+   border-radius:200%;
+   width: 85px;
+   
+   object-fit: cover;
+
+      font-size: 85px;
+      height: 50px;
+  
+      
+      
+    }
+
+ 
+.menu-bar ul li :hover .sub-menu-1 
+{
+width: 150px;
+padding: 10px;
+border-bottom: 1xp dotted #fff;
+background: transparent;
+border-radius: 0;
+text-align: left;
+}
+
+h1{
+   color: #498990;
+}
+header{
+   text-align: left;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+   
+
+footer{
+   text-align: center;
+  
+
+}
+
+span {
+   float: left;
+   width: 0.5em;
+   font-size: 30px;
+   font-family: algerian, courier;
+   line-height: 10px
+ }
